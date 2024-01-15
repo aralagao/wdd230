@@ -1,0 +1,121 @@
+* {
+	box-sizing:border-box;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	font-family: Roboto, Helvetica, sans-serif;
+    background-color: white;
+}
+
+header {
+	border: 1px solid rgba(0,0,0,.1);
+	padding: 1rem;
+	background-color: #bed;
+	box-shadow: 0 0 20px rgba(0,0,0,.3);
+    width: 600px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    place-items: center;
+}
+
+header img {
+    grid-column: 1 / 2 ;
+}
+
+header h1 {
+    grid-column: 2/3;
+}
+
+nav {
+	border: 1px solid rgba(0,0,0,.1);
+	background-color: black;
+	box-shadow: 0 0 20px rgba(0,0,0,.3);
+    width: 600px;
+    height: 260px;
+    text-align: center;
+}
+
+nav ul li{
+    font-size: 1rem;
+    margin-top: 30x;
+    margin-bottom: 30px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+main h2 {
+    background-color: white;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    margin-top: 40px;
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,.1);
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+    width: 550px;
+    height: 350px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card h3 {
+    background-color: #bed;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card ul{
+    text-align: left;
+}
+
+.card ul {
+    list-style-type: none;
+    counter-reset: item;
+  }
+  
+.card ul li {
+    counter-increment: item;
+    margin-bottom: 8px;
+  }
+  
+.card ul li::before {
+    content: counter(item, decimal-leading-zero) ": ";
+    display: inline-block;
+    margin-right: 8px;
+  }
+
+#second-card {
+    height: 200px;
+}
+
+#second-card div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    border: 1px solid rgba(0,0,0,.1);
+	padding: 1rem;
+	background-color: #bed;
+	box-shadow: 0 0 20px rgba(0,0,0,.3);
+    width: 600px;
+    height: 150px;
+    place-items: center;
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: center;
+}
