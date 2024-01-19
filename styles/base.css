@@ -40,6 +40,10 @@ nav {
     text-align: center;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
 nav ul li{
     font-size: 1rem;
     margin-top: 30x;
@@ -120,15 +124,3 @@ footer p {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-@media screen and (max-width: 500px) {
-    header {
-        background-color: black;
-    }
-}
