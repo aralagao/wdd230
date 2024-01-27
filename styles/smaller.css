@@ -99,4 +99,10 @@
 	.stuff {
 		margin: 1rem auto;
 	}
+
+  #map-container {
+    margin-top: 25px;
+    width: 800px;
+  }
+
 }
