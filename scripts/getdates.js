@@ -13,4 +13,3 @@ if (Number.isNaN(lastVisit) || lastModif > lastVisit) {
   }
 }
 
-

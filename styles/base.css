@@ -38,6 +38,7 @@ nav {
     width: 600px;
     height: 260px;
     text-align: center;
+    list-style: none;
 }
 
 nav ul {
@@ -46,8 +47,9 @@ nav ul {
 }
 nav ul li{
     font-size: 1rem;
-    margin-top: 30x;
+    margin-top: 1px;
     margin-bottom: 30px;
+    list-style: none;
 }
 
 nav a{
@@ -123,4 +125,7 @@ footer {
 footer p {
     text-align: center;
 }
+
+
+
 
