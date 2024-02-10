@@ -44,4 +44,13 @@
     grid-row: 3/4;
   }
 
+  /* DARK MODE */
+  #mode {
+	  position: absolute;
+	  top: 1rem;
+	  right: 1rem;
+	  font-size: 3rem;
+	  cursor: pointer;
+	  font-size: 2rem;
+  }
 }
