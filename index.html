@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arthur Alagao - WDD 230 - Web Frontend Development</title>
     <meta name="author" content="Arthur Alagao">
-    <meta
-        name="description"
-        content="WDD 230 - Web Frontend Development Arthur Alagao course assignment portal">
+    <meta name="description" content="WDD 230 - Web Frontend Development Arthur Alagao course assignment portal">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css"> <!--Normalize.css-->
     <link rel="stylesheet" href="styles/base.css">
@@ -19,9 +18,11 @@
     <meta property="og:title" content="Web Frontend Development Home Page"> <!--Added meta-->
     <meta property="og:type" content="My web frontend developement home page.">
     <meta property="og:url" content="https://aralagao.github.io/wdd230/index.html">
-    <meta property="og:image" content="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/2020-07/SFBA_San%20Francisco_Golden%20Gate%20Bridge.jpeg">
+    <meta property="og:image"
+        content="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/2020-07/SFBA_San%20Francisco_Golden%20Gate%20Bridge.jpeg">
 
 </head>
+
 <body>
     <header>
         <img src="https://i.ibb.co/DVYVtVD/Me.webp" alt="Me" width="100" height="100">
@@ -34,21 +35,38 @@
             <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
             <li><a href="chamber/">Chamber</a></li>
             <li><a href="https://www.byui.edu/">BYU-Idaho</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/1?lang=eng" target="_blank">Scripture</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/1?lang=eng"
+                    target="_blank">Scripture</a></li>
         </ul>
     </nav>
     <main>
+        <picture>
+            <source media="(max-width: 500px)" srcset="lesson06/images/hero-small.webp">
+            <source media="(max-width: 1000px)" srcset="lesson06/images/hero-large.webp">
+            <img src="lesson06/images/hero-large.webp" width="800" height="600">
+        </picture>
+        <div class="herolabel">
+			<p>Manila Temple</p>
+		</div>
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activities</h3>
             <ul>
                 <li><a href="#">Holy Layout</a> | <a href="#">JS Pen</a></li>
-                <li><a href="#">Media Query</a> | <a href="https://aralagao.github.io/wdd230/lesson02/design-principles.html">Design Principles Document</a></li>
-                <li><a href="https://ibb.co/NppQtD3">CSS Combinators</a> | <a href="https://codepen.io/aralagao11/pen/Rwdgyqj">CSS Psuedo</a></li>
-                <li><a href="https://codepen.io/aralagao11/pen/vYPWjWY">Hamburger Menu</a> | <a href="https://aralagao.github.io/wdd230/lesson03/chamber-site-plan.html">Chamber Site Plan</a></li>
-                <li><a href="https://codepen.io/aralagao11/pen/VwRXjjm">CSS Pseudo</a> | <a href="https://aralagao.github.io/wdd230/chamber/index.html">Chamber Site</a></li>
+                <li><a href="#">Media Query</a> | <a
+                        href="https://aralagao.github.io/wdd230/lesson02/design-principles.html">Design Principles
+                        Document</a></li>
+                <li><a href="https://ibb.co/NppQtD3">CSS Combinators</a> | <a
+                        href="https://codepen.io/aralagao11/pen/Rwdgyqj">CSS Psuedo</a></li>
+                <li><a href="https://codepen.io/aralagao11/pen/vYPWjWY">Hamburger Menu</a> | <a
+                        href="https://aralagao.github.io/wdd230/lesson03/chamber-site-plan.html">Chamber Site Plan</a>
+                </li>
+                <li><a href="https://codepen.io/aralagao11/pen/VwRXjjm">CSS Pseudo</a> | <a
+                        href="https://aralagao.github.io/wdd230/chamber/index.html">Chamber Site</a></li>
                 <li><a href="https://aralagao.github.io/wdd230/lesson05/bom.html">DOM Application</a></li>
-                <li><a href="lesson02/images/landscape.jpg.webp">WebP</a> | <a href="https://aralagao.github.io/wdd230/lesson06/responsive-images.html">Responsive Images</a></li>
+                <li><a href="lesson02/images/landscape.jpg.webp">WebP</a> | <a
+                        href="https://aralagao.github.io/wdd230/lesson06/responsive-images.html">Responsive Images</a>
+                </li>
                 <li><a href="#"></a></li>
                 <li><a href="#"></a></li>
                 <li><a href="#"></a></li>
@@ -64,14 +82,8 @@
 
     <div id="map-container">
         <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50470.029826292746!2d-122.47879929298087!3d37.75776068842181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1706391314773!5m2!1sen!2sus"
-            width="100%"
-            height="300"
-            style="border:0;"
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0"
-        ></iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50470.029826292746!2d-122.47879929298087!3d37.75776068842181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1706391314773!5m2!1sen!2sus"
+            width="100%" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
 
 
@@ -87,4 +99,5 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
 </body>
+
 </html>
