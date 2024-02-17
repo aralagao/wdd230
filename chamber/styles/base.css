@@ -133,8 +133,6 @@ img {
 }
 
 .btn {
-	-webkit-border-radius: 28;
-	-moz-border-radius: 28;
 	border-radius: 28px;
 	font-family: Arial;
 	color: #ffffff;
