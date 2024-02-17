@@ -1,4 +1,12 @@
 @media (min-width: 600px) {
+
+  .btn {
+    bottom: 50%;
+    left: 45%;
+    right: 45%;
+    top: 45%;
+  }
+
   .grids {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -46,11 +54,11 @@
 
   /* DARK MODE */
   #mode {
-	  position: absolute;
-	  top: 1rem;
-	  right: 1rem;
-	  font-size: 3rem;
-	  cursor: pointer;
-	  font-size: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
   }
 }

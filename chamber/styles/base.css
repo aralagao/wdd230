@@ -123,6 +123,11 @@ header {
 	height: auto;
 }
 
+img {
+	width: 100%;
+	height: auto;
+}
+
 .container {
 	position: relative;
 }
@@ -139,10 +144,10 @@ header {
 	border: solid #668c1f 2px;
 	text-decoration: none;
 	position: absolute;
-	bottom: 45%;
-	left: 45%;
-	right: 45%;
-	top: 45%;
+	bottom: 40%;
+	left: 40%;
+	right: 40%;
+	top: 40%;
 }
 
 .btn:hover {

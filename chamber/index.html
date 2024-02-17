@@ -12,10 +12,11 @@
   <link rel="stylesheet" href="styles/medium.css">
   <link rel="stylesheet" href="styles/larger.css">
 
-  <meta property="og:title" content="Web Frontend Development Home Page"> <!--Added meta-->
+  <meta property="og:title" content="website">
   <meta property="og:type" content="My web frontend developement home page.">
   <meta property="og:url" content="https://aralagao.github.io/wdd230/index.html">
   <meta property="og:image" content="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/2020-07/SFBA_San%20Francisco_Golden%20Gate%20Bridge.jpeg">
+  <meta property="og:description" content="My chamber of commerece home page.">
 
 
 
@@ -39,7 +40,12 @@
     </div>
 
     <div class="container">
-      <img src="images/manila-bgc-hero.jpg" alt="BGC" id="hero-image">
+      <!-- <img src="images/manila-bgc-hero.webp" alt="BGC" id="hero-image"> -->
+      <picture>
+        <source media="(max-width: 500px)" srcset="images/small.webp">
+        <source media="(max-width: 1000px)" srcset="images/medium.webp">
+        <img src="images/large.webp" alt="Manila Temple" width="1500" height="750">
+      </picture>
       <button class="btn">Join Us!</button>
     </div>
     <div class="grids">
