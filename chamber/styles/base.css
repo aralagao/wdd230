@@ -220,3 +220,47 @@ footer {
 	cursor: pointer;
 	font-size: 2rem;
 }
+
+
+
+/* Discover CSS */
+
+.discover_grid {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.sidebar_grid {
+	margin: 10px 10px;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+
+.demographics {
+	grid-row: 1/2;
+	background-color: red;
+}
+
+.statistics {
+	grid-row: 2/3;
+	background-color: green;
+}
+
+.events {
+	grid-row: 3/4;
+	background-color: yellow;
+}
+
+.attractions {
+	background-color: purple;
+}
+
+
+.images_grid {
+	background-color: rgb(224, 216, 216);
+}
+
+.images_grid div {
+	margin: 10px;
+}
