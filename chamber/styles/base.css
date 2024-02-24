@@ -227,40 +227,56 @@ footer {
 
 .discover_grid {
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	background-color: rgb(224, 216, 216);
 }
 
 .sidebar_grid {
 	margin: 10px 10px;
 	display: grid;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 200px;
 	grid-gap: 10px;
+}
+
+.sidebar_grid div {
+	padding: 10px 10px;
+	align-items: center;
+	text-align: center;
 }
 
 .demographics {
 	grid-row: 1/2;
-	background-color: red;
+	background-color: white;
 }
 
 .statistics {
 	grid-row: 2/3;
-	background-color: green;
+	background-color: white;
 }
 
 .events {
 	grid-row: 3/4;
-	background-color: yellow;
+	background-color: white;
 }
 
 .attractions {
-	background-color: purple;
+	grid-row: 4/5;
+	background-color: white;
 }
 
+.accomodations {
+	grid-row: 5/6;
+	background-color: white;
+}
+
+.info {
+	background-color: white;
+}
 
 .images_grid {
 	background-color: rgb(224, 216, 216);
+	text-align: center;
 }
 
 .images_grid div {
-	margin: 10px;
+	margin: 10px 10px;
 }
