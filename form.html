@@ -5,12 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Forms</title>
+  <meta name="author" content="Arthur Alagao">
+  <meta name="description" content="Forms Page">
 
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/base.css">
-  <link rel="stylesheet" href="styles/smaller.css">
   <link rel="stylesheet" href="styles/larger.css">
   <link rel="stylesheet" href="styles/forms.css">
+
+  <meta property="og:title" content="Forms Page">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aralagao.github.io/wdd230/index.html">
+  <meta property="og:image" content="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/2020-07/SFBA_San%20Francisco_Golden%20Gate%20Bridge.jpeg">
+  <meta property="og:description" content="Forms page">
 </head>
 
 <body>
@@ -44,7 +51,7 @@
         <label class="top">Password* <input type="password" name="passowrd2" id="password2" pattern=".{8,}"
             required></label>
         <label class="top">Email* <input type="email" name="email" id="email" required
-            placeholder="Please enter a valid email address" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></label>
+            placeholder="Please enter a valid email address" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></label>
         <label class="top">Page Rating</label>
             <div id="rangevalue">0</div>
             <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">

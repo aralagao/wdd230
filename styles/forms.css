@@ -20,16 +20,23 @@
 
 
 
+:root {
+  --primary-color: #445ba9;
+  --secondary-color: #9c2c13;
+  --input-border-color: #999;
+  --input-background-color: rgba(0, 0, 0, 0.1);
+}
+
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid #445ba9;
+  border: 1px solid var(--primary-color);
   border-radius: 10px;
   padding: .5rem 2%;
   margin-right: 420px;
 }
 
 form legend {
-  color: #445ba9;
+  color: var(--primary-color);
   margin: 0 1rem;
   padding: 0 .5rem;
 }
@@ -38,7 +45,7 @@ form label.top,
 form div {
   display: block;
   padding-top: 1rem;
-  color: #9c2c13;
+  color: var(--secondary-color);
   font-size: .8rem;
 }
 
@@ -46,18 +53,18 @@ form label.top input,
 form label.top select {
   display: block;
   font-size: 1rem;
-  border: solid 1px #999;
+  border: solid 1px var(--input-border-color);
   border-radius: 4px;
   padding: .75rem;
   color: #555;
   width: 100%;
   max-width: 20rem;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--input-background-color);
 }
 
 form input.submitBtn {
   border: none;
-  background-color: #9c2c13;
+  background-color: var(--secondary-color);
   color: white;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
