@@ -367,3 +367,7 @@ form label.top input:required:valid {
 .b {
 	list-style-type: none;
 }
+
+#ty {
+	margin: 2rem 0 50rem 0;
+}
