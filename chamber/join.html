@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BGC Chamber of Commerce</title>
+  <meta name="author" content="Arthur Alagao">
+  <meta name="description" content="Chamber of commerce homepage.">
+
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <meta property="og:title" content="website">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aralagao.github.io/wdd230/index.html">
+  <meta property="og:image"
+    content="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/2020-07/SFBA_San%20Francisco_Golden%20Gate%20Bridge.jpeg">
+  <meta property="og:description" content="Chamber of commerce homepage.">
+
+
+
+</head>
+
+<body>
+  <header>
+    <h1>Bonifacio Global City Chamber of Commerce</h1>
+    <button id="menu"></button>
+    <nav class="navigation">
+      <a href="https://aralagao.github.io/wdd230/chamber/" title="Home">Home</a>
+      <a href="#" title="About Us" class="active">About Us</a>
+      <a href="#" title="Service">Services</a>
+      <a href="#" title="History">Products</a>
+      <a href="#" title="Contact">Contact Us</a>
+    </nav>
+  </header>
+  <main id="join">
+
+    <div id="form">
+      <form method="get" action="thankyou.html">
+        <fieldset>
+          <legend>Applicant Information</legend>
+          <label class="top">First Name* <input type="text" name="fname" id="firstname" required></label>
+          <label class="top">Last Name* <input type="text" name="lname" id="lastname" required></label>
+          <label class="top">Title or Position* <input type="text" name="position" id="position" required
+              pattern="[a-zA-Z\s-]{7,}"></label>
+          <label class="top">Email Address* <input type="email" name="email" id="email" required
+              placeholder="youremail@gmail.com"></label>
+          <label class="top">Mobile Phone Number* <input type="telephone" name="phone" id="phone" required></label>
+          <label class="top">Business/Organization's Name <input type="text" name="business" id="business"
+              required></label>
+
+          <div>Membership Level</div>
+          <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership</label>
+          <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+          <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+          <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+
+          <label class="top">Business/Organization's Description <input type="text" name="description"
+              id="description"></label>
+          <label for="timestamp" class="top">Timestamp:</label>
+          <input type="hidden" id="timestamp" name="timestamp">
+          <label for="message" class="top">Message:</label>
+          <textarea id="message" name="message" rows="4" cols="50"></textarea>
+
+          <input type="submit" value="Sign up" class="submitBtn">
+        </fieldset>
+      </form>
+    </div>
+
+    <div id="benefits">
+      <h2>Membership Benefits</h2>
+      <h3 class="a">NP Membership:</h3>
+      <ul class="b">
+        <li>Access to community events</li>
+        <li>Monthly newsletter subscription</li>
+        <li>Networking opportunities</li>
+      </ul>
+      <h3 class="a">Bronze Membership:</h3>
+      <ul class="b">
+        <li>Access to community events</li>
+        <li>Monthly newsletter subscription</li>
+        <li>Discounts on select events</li>
+        <li>Listing in online member directory</li>
+      </ul>
+      <h3 class="a">Silver Membership:</h3>
+      <ul class="b">
+        <li>Access to community events</li>
+        <li>Monthly newsletter subscription</li>
+        <li>Discounts on select events</li>
+        <li>Training workshops/webinars</li>
+        <li>Advertising opportunities on chamber website</li>
+      </ul>
+      <h3 class="a">Silver Membership:</h3>
+      <ul class="b">
+        <li>Access to community events</li>
+        <li>Monthly newsletter subscription</li>
+        <li>Discounts on select events</li>
+        <li>Training workshops/webinars</li>
+        <li>Advertising opportunities on chamber website</li>
+        <li>Featured listing in online member directory</li>
+        <li>Exclusive sponsorship opportunities for chamber events</li>
+      </ul>
+    </div>
+
+  </main>
+  <footer>
+    <p>Arthur Alagao</p>
+    <p>WDD 230 Project</p>
+    <p>Last Modification: </p>
+  </footer>
+
+
+
+
+
+
+
+
+  <script src="scripts/scripts.js"></script>
+  <script src="scripts/date.js"></script>
+</body>
+
+</html>
