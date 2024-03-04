@@ -1,0 +1,20 @@
+{
+  "wardInformation": {
+  "familyName" : "Santo",
+  "date" : 2000,
+  "numberOfMembers" : 2,
+  "visited" : true,
+  "members" : [
+    {
+      "name" : "Spencer Santo",
+      "gender" : "Male",
+      "birthdate" : "January 31, 1985"
+    },
+    {
+      "name" : "Susan Santo",
+      "gender" : "Female",
+      "birthdate" : "January 30, 1985"
+    }
+  ]
+  }
+}
