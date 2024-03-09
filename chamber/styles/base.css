@@ -387,4 +387,5 @@ form label.top input:required:valid {
 	height: 440px;
 	width: 340px;
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
