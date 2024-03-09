@@ -5,8 +5,8 @@
       "address": "123 Main Street, Anytown, USA",
       "phoneNumber": "555-123-4567",
       "website": "www.example.com",
-      "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
-      "membershipLevel": "Gold",
+      "imageurl": "https://placehold.co/600x400",
+      "membershipLevel": "Gold Membership",
       "email": "spencersanto@gmail.com"
     },
     {
@@ -15,7 +15,7 @@
       "phoneNumber": "555-123-4568",
       "website": "www.dummywebsite.net",
       "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
-      "membershipLevel": "Gold",
+      "membershipLevel": "Gold Membership",
       "email": "ezrasanto@gmail.com"
     },
     {
@@ -24,7 +24,7 @@
       "phoneNumber": "555-123-4569",
       "website": "www.fakesite.org",
       "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
-      "membershipLevel": "Gold",
+      "membershipLevel": "Silver Membership",
       "email": "kimyoung@gmail.com"
     },
     {
@@ -33,7 +33,7 @@
       "phoneNumber": "555-123-4566",
       "website": "www.testsite.com",
       "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
-      "membershipLevel": "Gold",
+      "membershipLevel": "Silver Membership",
       "email": "arturocastillo@gmail.com"
     },
     {
@@ -42,7 +42,7 @@
       "phoneNumber": "555-123-4565",
       "website": "www.placeholder.org",
       "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
-      "membershipLevel": "Gold",
+      "membershipLevel": "Silver Membership",
       "email": "lowelsurio@gmail.com"
     },
     {
@@ -51,7 +51,7 @@
       "phoneNumber": "555-123-4564",
       "website": "www.testing123.com",
       "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
-      "membershipLevel": "Gold",
+      "membershipLevel": "Silver Membership",
       "email": "jeffersonabella@gmail.com"
     },
     {
@@ -60,7 +60,7 @@
       "phoneNumber": "555-123-4563",
       "website": "www.fakedomain.org",
       "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg",
-      "membershipLevel": "Gold",
+      "membershipLevel": "Silver Membership",
       "email": "kokiylagan@gmail.com"
     }
   ]

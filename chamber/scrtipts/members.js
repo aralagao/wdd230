@@ -16,10 +16,16 @@ const displayMembers = (members) => {
     let address = document.createElement('p');
     let phoneNumber = document.createElement('p');
     let portrait = document.createElement('img');
+    let website = document.createElement('p');
+    let membershipLevel = document.createElement('p');
+    let email = document.createElement('p');
     
     name.textContent = `${member.name}`;
     address.textContent = `Address: ${member.address}`;
     phoneNumber.textContent = `Phone Number: ${member.phoneNumber}`;
+    website.textContent = `${member.website}`
+    membershipLevel.textContent = `${member.membershipLevel}`
+    email.textContent = `${member.email}`
 
     portrait.setAttribute('src', member.imageurl);
     portrait.setAttribute('alt', `Portrait of ${member.name}`);
@@ -30,6 +36,10 @@ const displayMembers = (members) => {
     card.appendChild(name);
     card.appendChild(address);
     card.appendChild(phoneNumber);
+    card.appendChild(website);
+    card.appendChild(membershipLevel);
+    card.appendChild(email);
+
     card.appendChild(portrait);
 
     cards.appendChild(card);

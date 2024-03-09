@@ -371,3 +371,19 @@ form label.top input:required:valid {
 #ty {
 	margin: 2rem 0 50rem 0;
 }
+
+
+
+
+/*----------- DIRECTORY --------------*/
+
+#cards {
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+
+#cards img {
+	height: 440px;
+	width: 340px;
+}
