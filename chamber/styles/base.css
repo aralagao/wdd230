@@ -386,4 +386,5 @@ form label.top input:required:valid {
 #cards img {
 	height: 440px;
 	width: 340px;
+	margin-top: 20px;
 }

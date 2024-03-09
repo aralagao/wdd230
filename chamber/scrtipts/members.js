@@ -21,8 +21,8 @@ const displayMembers = (members) => {
     let email = document.createElement('p');
     
     name.textContent = `${member.name}`;
-    address.textContent = `Address: ${member.address}`;
-    phoneNumber.textContent = `Phone Number: ${member.phoneNumber}`;
+    address.textContent = `${member.address}`;
+    phoneNumber.textContent = `${member.phoneNumber}`;
     website.textContent = `${member.website}`
     membershipLevel.textContent = `${member.membershipLevel}`
     email.textContent = `${member.email}`
