@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "Spencer Santo",
+      "address": "123 Main Street, Anytown, USA",
+      "phone number": "555-123-4567",
+      "website URL": "www.example.com",
+      "image": "https://placehold.co/600x400",
+      "membershipLevel": "Gold",
+      "email": "spencersanto@gmail.com"
+    },
+    {
+      "name": "Ezra Santo",
+      "address": "124 Main Street, Anytown, USA",
+      "phone number": "555-123-4568",
+      "website URL": "www.dummywebsite.net",
+      "image": "https://placehold.co/600x400",
+      "membershipLevel": "Gold",
+      "email": "ezrasanto@gmail.com"
+    },
+    {
+      "name": "Kim Woo Young",
+      "address": "125 Main Street, Anytown, USA",
+      "phone number": "555-123-4569",
+      "website URL": "www.fakesite.org",
+      "image": "https://placehold.co/600x400",
+      "membershipLevel": "Gold",
+      "email": "kimyoung@gmail.com"
+    },
+    {
+      "name": "Arturo Castillo",
+      "address": "126 Main Street, Anytown, USA",
+      "phone number": "555-123-4566",
+      "website URL": "www.testsite.com",
+      "image": "https://placehold.co/600x400",
+      "membershipLevel": "Gold",
+      "email": "arturocastillo@gmail.com"
+    },
+    {
+      "name": "Lowel Surio",
+      "address": "127 Main Street, Anytown, USA",
+      "phone number": "555-123-4565",
+      "website URL": "www.placeholder.org",
+      "image": "https://placehold.co/600x400",
+      "membershipLevel": "Gold",
+      "email": "lowelsurio@gmail.com"
+    },
+    {
+      "name": "Jefferson Abella",
+      "address": "128 Main Street, Anytown, USA",
+      "phone number": "555-123-4564",
+      "website URL": "www.testing123.com",
+      "image": "https://placehold.co/600x400",
+      "membershipLevel": "Gold",
+      "email": "jeffersonabella@gmail.com"
+    },
+    {
+      "name": "Koki Ylagan",
+      "address": "129 Main Street, Anytown, USA",
+      "phone number": "555-123-4563",
+      "website URL": "www.fakedomain.org",
+      "image": "https://placehold.co/600x400",
+      "membershipLevel": "Gold",
+      "email": "kokiylagan@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+* {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+#cards section {
+  margin-bottom: 20px;
+  /* Adjust the value as needed */
+}
+
+#cards section {
+  padding: 20px;
+  /* Adjust the value as needed */
+}

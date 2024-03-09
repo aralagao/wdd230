@@ -1,0 +1,129 @@
+{
+  "lessons": [
+    {
+      "lesson": "01",
+      "links": [
+        {
+          "url": "https://aralagao.github.io/wdd230/week01/holygrail.html",
+          "title": "Holy Grail"
+        }
+      ]
+    },
+    {
+      "lesson": "02",
+      "links": [
+        {
+          "url": "https://aralagao.github.io/wdd230/lesson02/media-query.html",
+          "title": "Media Query"
+        },
+        {
+          "url": "https://aralagao.github.io/wdd230/lesson02/design-principles.html",
+          "title": "Design Principles"
+        }
+      ]
+    },
+    {
+      "lesson": "03",
+      "links": [
+        {
+          "url": "https://ibb.co/NppQtD3",
+          "title": "CSS Combinators"
+        },
+        {
+          "url": "hhttps://codepen.io/aralagao11/pen/Rwdgyqj",
+          "title": "CSS Psuedo"
+        }
+      ]
+    },
+    {
+      "lesson": "04",
+      "links": [
+        {
+          "url": "https://codepen.io/aralagao11/pen/vYPWjWY",
+          "title": "Hamburger Menu"
+        },
+        {
+          "url": "https://aralagao.github.io/wdd230/lesson03/chamber-site-plan.html",
+          "title": "Chamber Site Plan"
+        },
+        {
+          "url": "https://codepen.io/aralagao11/pen/VwRXjjm",
+          "title": "CSS Pseudo"
+        },
+        {
+          "url": "https://aralagao.github.io/wdd230/chamber/index.html",
+          "title": "Chamber Site"
+        }
+      ]
+    },
+    {
+      "lesson": "05",
+      "links": [
+        {
+          "url": "https://aralagao.github.io/wdd230/lesson05/bom.html",
+          "title": "DOM Application"
+        }
+      ]
+    },
+    {
+      "lesson": "06",
+      "links": [
+        {
+          "url": "https://aralagao.github.io/wdd230/lesson02/images/landscape.jpg.webp",
+          "title": "WebP"
+        },
+        {
+          "url": "https://aralagao.github.io/wdd230/lesson06/responsive-images.html",
+          "title": "Responsive Images"
+        }
+      ]
+    },
+    {
+      "lesson": "07",
+      "links": [
+        {
+          "url": "https://aralagao.github.io/wdd230/lesson07/lazyload.html",
+          "title": "Lazy Load"
+        },
+        {
+          "url": "https://aralagao.github.io/wdd230/lesson07/bom.html",
+          "title": "Web Storage API"
+        },
+        {
+          "url": "https://aralagao.github.io/wdd230/chamber/discover.html",
+          "title": "Discover Page"
+        }
+      ]
+    },
+    {
+      "lesson": "08",
+      "links": [
+        {
+          "url": "https://aralagao.github.io/wdd230/lesson08/tablebuild.html",
+          "title": "Table Build"
+        },
+        {
+          "url": "https://aralagao.github.io/wdd230/lesson08/index.html",
+          "title": "Forms"
+        },
+        {
+          "url": "https://aralagao.github.io/wdd230/form.html",
+          "title": "Page Rating Form"
+        },
+        {
+          "url": "https://aralagao.github.io/wdd230/chamber/join.html",
+          "title": "Join Chamber"
+        }
+      ]
+    },
+    {
+      "lesson": "09",
+      "links": [
+        {
+          "url": "https://aralagao.github.io/wdd230/lesson09/new-ward-members.json",
+          "title": "JSON"
+        }
+      ]
+    }
+  ]
+}
