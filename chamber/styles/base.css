@@ -389,3 +389,26 @@ form label.top input:required:valid {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+.grid-view {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 20px;
+}
+
+.list-view {
+	display: flex;
+	flex-direction: column;
+}
+
+#view-toggle {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#grid-view, #list-view {
+	padding: 10px 10px;
+	border: 1px solid black;
+}
