@@ -77,7 +77,7 @@
         border: 1px solid rgba(0, 0, 0, .1);
         box-shadow: 0 0 20px rgba(0, 0, 0, .3);
         width: 450px;
-        height: 350px;
+        height: 450px;
         text-align: center;
         margin-top: 10px;
     }
@@ -111,7 +111,7 @@
 
     #second-card {
         width: 300px;
-        height: 350px;
+        height: 450px;
     }
 
     #second-card div {

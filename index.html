@@ -46,8 +46,8 @@
             <img src="lesson06/images/hero-large.webp" alt="Manila Temple" width="800" height="600">
         </picture>
         <div class="herolabel">
-			<p>Manila Temple</p>
-		</div>
+            <p>Manila Temple</p>
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activities</h3>
@@ -59,21 +59,34 @@
                 <li><a href="https://ibb.co/NppQtD3">CSS Combinators</a> | <a
                         href="https://codepen.io/aralagao11/pen/Rwdgyqj">CSS Psuedo</a></li>
                 <li><a href="https://codepen.io/aralagao11/pen/vYPWjWY">Hamburger Menu</a> | <a
-                    href="https://aralagao.github.io/wdd230/lesson03/chamber-site-plan.html">Chamber Site Plan</a> | <a href="https://codepen.io/aralagao11/pen/VwRXjjm">CSS Pseudo</a> | <a
-                    href="https://aralagao.github.io/wdd230/chamber/index.html">Chamber Site</a></li>
+                        href="https://aralagao.github.io/wdd230/lesson03/chamber-site-plan.html">Chamber Site Plan</a> |
+                    <a href="https://codepen.io/aralagao11/pen/VwRXjjm">CSS Pseudo</a> | <a
+                        href="https://aralagao.github.io/wdd230/chamber/index.html">Chamber Site</a>
+                </li>
                 <li><a href="https://aralagao.github.io/wdd230/lesson05/bom.html">DOM Application</a></li>
                 <li><a href="lesson02/images/landscape.jpg.webp">WebP</a> | <a
-                    href="https://aralagao.github.io/wdd230/lesson06/responsive-images.html">Responsive Images</a></li>
-                <li><a href="https://aralagao.github.io/wdd230/lesson07/lazyload.html">Lazy Load</a> | <a href="https://aralagao.github.io/wdd230/lesson07/bom.html">Web Storage API</a> | <a href="https://aralagao.github.io/wdd230/chamber/discover.html">Discover</a></li>
-                <li><a href="https://aralagao.github.io/wdd230/lesson08/tablebuild.html">Table Build</a> | <a href="https://aralagao.github.io/wdd230/lesson08/index.html">Forms</a> | <a href="https://aralagao.github.io/wdd230/form.html">Page Rating Form</a> | <a href="https://aralagao.github.io/wdd230/chamber/join.html">Join Chamber</a></li>
-                <li><a href="https://aralagao.github.io/wdd230/lesson09/new-ward-members.json">JSON</a> | <a href="https://aralagao.github.io/wdd230/lesson09/prophets.html">Prophets</a> | <a href="https://aralagao.github.io/wdd230/chamber/directory.html">Directory</a></li>
+                        href="https://aralagao.github.io/wdd230/lesson06/responsive-images.html">Responsive Images</a>
+                </li>
+                <li><a href="https://aralagao.github.io/wdd230/lesson07/lazyload.html">Lazy Load</a> | <a
+                        href="https://aralagao.github.io/wdd230/lesson07/bom.html">Web Storage API</a> | <a
+                        href="https://aralagao.github.io/wdd230/chamber/discover.html">Discover</a></li>
+                <li><a href="https://aralagao.github.io/wdd230/lesson08/tablebuild.html">Table Build</a> | <a
+                        href="https://aralagao.github.io/wdd230/lesson08/index.html">Forms</a> | <a
+                        href="https://aralagao.github.io/wdd230/form.html">Page Rating Form</a> | <a
+                        href="https://aralagao.github.io/wdd230/chamber/join.html">Join Chamber</a></li>
+                <li><a href="https://aralagao.github.io/wdd230/lesson09/new-ward-members.json">JSON</a> | <a
+                        href="https://aralagao.github.io/wdd230/lesson09/prophets.html">Prophets</a> | <a
+                        href="https://aralagao.github.io/wdd230/chamber/directory.html">Directory</a></li>
                 <li><a href="https://aralagao.github.io/wdd230/lesson10/weather.html">Weather</a></li>
             </ul>
         </section>
         <section class="card" id="second-card">
             <h3>Information</h3>
-            <div>San Francisco, California</div>
-            <div>90 F - Sunshine</div>
+            <p>Currennt Temperature: <span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
             <div class="visits"></div>
         </section>
     </main>
@@ -81,7 +94,8 @@
     <div id="map-container">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50470.029826292746!2d-122.47879929298087!3d37.75776068842181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1706391314773!5m2!1sen!2sus"
-            width="100%" height="300" loading="lazy" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            width="100%" height="300" loading="lazy" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
     </div>
 
 
@@ -98,6 +112,7 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/visits.js"></script>
     <script src="scripts/links.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 
 </html>
