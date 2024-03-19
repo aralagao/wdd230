@@ -412,3 +412,27 @@ form label.top input:required:valid {
 	padding: 10px 10px;
 	border: 1px solid black;
 }
+
+
+
+
+
+#banner {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+.close-banner {
+	cursor: pointer;
+	color: #fff;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
