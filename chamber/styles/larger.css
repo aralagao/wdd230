@@ -1,5 +1,17 @@
 @media (min-width: 1000px) {
 
+  .grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 650px 1fr;
+  }
+
+  .event-image {
+    height: 250px;
+    width: 500px;
+    margin-top: 20px;
+  }
+
   .spotlights {
     grid-column: 1/4;
     grid-row: 2/3;
@@ -46,4 +58,4 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-}              
+}

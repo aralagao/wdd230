@@ -154,10 +154,17 @@ img {
 }
 
 .current-events {
-	background-color: rgb(160, 187, 157);
+	background-color: #549665;
 	padding: 20px 20px;
 	text-align: center;
 	margin: 10px 20px;
+}
+
+.event-image {
+	height: 150px;
+	width: 300px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 h2 {
@@ -170,6 +177,7 @@ h2 {
 	padding: 20px 20px 20px 20px;
 	text-align: center;
 	margin: 10px 20px;
+	align-content: center;
 }
 
 .spotlights {
@@ -184,25 +192,31 @@ h2 {
 
 .spots {
 	width: 100%;
-	height: 400px;
+	height: 600px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	box-shadow: 0 0 20px rgba(0, 0, 0, .3);
 	max-width: 350px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 20px 20px;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	background-color: white;
 }
 
-#first-spotlight {
-	background-color: rgb(143, 189, 158);
+.spots:hover {
+	background-color: #cedfd3;
+	/* Change to desired hover background color */
+	cursor: pointer;
+	/* Change cursor to pointer on hover */
 }
 
-#second-spotlight {
-	background-color: rgb(143, 189, 158);
-}
 
-#third-spotlight {
-	background-color: rgb(143, 189, 158);
+.spotlight-info {
+	margin-top: 10px;
+	/* For image space from information */
 }
 
 footer {

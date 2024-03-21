@@ -9,22 +9,28 @@ fetch('data/members.json') // Adjusted path to reflect the location of the JSON 
     const shuffledMembers = shuffleArray(filteredMembers);
     
     // Select two to three random members
-    const selectedMembers = shuffledMembers.slice(0, Math.floor(Math.random() * 2) + 2);
+    const selectedMembers = shuffledMembers.slice(0, Math.min(3, shuffledMembers.length)); // Ensure at most three members are selected
     
     // Update spotlight section HTML
     const spotlightContainers = document.querySelectorAll('.spots');
-    selectedMembers.forEach((member, index) => {
-      const spotlightDiv = document.createElement('div');
-      spotlightDiv.innerHTML = `
-        <h3>${member.name}</h3>
-        <p>${member.address}</p>
-        <p>${member.phoneNumber}</p>
-        <p>${member.website}</p>
-        <p>${member.email}</p>
-        <img src="${member.imageurl}" alt="${member.name}" width="200">
-      `;
-      // Append the generated member info to the respective .spots div
-      spotlightContainers[index].appendChild(spotlightDiv);
+    spotlightContainers.forEach((spotlightContainer, index) => {
+      if (selectedMembers[index]) { // Check if a member exists for this index
+        const member = selectedMembers[index];
+        const spotlightDiv = document.createElement('div');
+        spotlightDiv.innerHTML = `
+          <img src="${member.imageurl}" alt="${member.name}" width="200">
+          <div class="spotlight-info">
+            <h3>${member.name}</h3>
+            <p>${member.address}</p>
+            <p>${member.phoneNumber}</p>
+            <p>${member.website}</p>
+            <p>${member.email}</p>
+            <p>${member.membershipLevel}</p> <!-- Display membership level -->
+          </div>
+        `;
+        // Append the generated member info to the respective .spots div
+        spotlightContainer.appendChild(spotlightDiv);
+      }
     });
   })
   .catch(error => console.error('Error fetching members data:', error));
@@ -37,4 +43,5 @@ function shuffleArray(array) {
   }
   return array;
 }
+
 
