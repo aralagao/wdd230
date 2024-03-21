@@ -211,9 +211,7 @@ h2 {
 
 .spots:hover {
 	background-color: #cedfd3;
-	/* Change to desired hover background color */
 	cursor: pointer;
-	/* Change cursor to pointer on hover */
 }
 
 
