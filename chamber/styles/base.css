@@ -184,10 +184,13 @@ h2 {
 
 .spots {
 	width: 100%;
-	height: 200px;
+	height: 400px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #first-spotlight {
@@ -408,7 +411,8 @@ form label.top input:required:valid {
 	margin-top: 20px;
 }
 
-#grid-view, #list-view {
+#grid-view,
+#list-view {
 	padding: 10px 10px;
 	border: 1px solid black;
 }

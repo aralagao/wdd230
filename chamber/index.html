@@ -32,7 +32,6 @@
     <button id="menu"></button>
     <nav class="navigation">
       <a href="https://aralagao.github.io/wdd230/chamber/" title="Home">Home</a>
-      <a href="#" title="About Us" class="active">About Us</a>
       <a href="https://aralagao.github.io/wdd230/chamber/discover.html" title="Discover">Discover</a>
       <a href="https://aralagao.github.io/wdd230/chamber/directory.html" title="Directory">Directory</a>
       <a href="https://aralagao.github.io/wdd230/chamber/join.html" title="Contact">Join Us</a>
@@ -45,7 +44,12 @@
     </div>
 
     <div class="container">
-      <img src="images/manila-bgc-hero.webp" alt="BGC" id="hero-image">
+      <picture>
+        <source media="(max-width: 500px)" srcset="images/manila-bgc-hero-small.webp">
+        <source media="(max-width: 1000px)" srcset="images/manila-bgc-hero-medium.webp">
+        <img src="images/manila-bgc-hero-base.webp" loading="lazy" alt="Shangri-La" width="1500" height="750">
+      </picture>
+      <!-- <img src="images/manila-bgc-hero-base.webp" alt="BGC" id="hero-image"> -->
       <button class="btn" id="joinUsBtn">Join Us!</button>
     </div>
     <div class="grids">
@@ -104,11 +108,13 @@
 
 
 
-  <script src="scrtipts/scripts.js"></script>
-  <script src="scrtipts/dark.js"></script>
-  <script src="scrtipts/weather.js"></script>
-  <script src="scrtipts/banner.js"></script>
-  <script src="scrtipts/button.js"></script>
+  <script src="scripts/scripts.js"></script>
+  <script src="scripts/dark.js"></script>
+  <script src="scripts/weather.js"></script>
+  <script src="scripts/banner.js"></script>
+  <script src="scripts/button.js"></script>
+  <script src="scripts/spotlight.js"></script>
+
 </body>
 
 </html>

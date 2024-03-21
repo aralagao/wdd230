@@ -10,7 +10,7 @@
   .grids {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 500px 1fr;
   }
 
   .current-events {
@@ -26,31 +26,13 @@
   .spotlights {
     grid-column: 1/4;
     grid-row: 2/3;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 1fr;
     gap: 10px;
   }
 
-  .spotlight-heading {
-    grid-row: 1/2;
-    grid-column: 1/4;
+  .spots {
+    width: 400px;
   }
 
-  .first-spotlight {
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-
-  .second-spotlight {
-    grid-column: 2/3;
-    grid-row: 2/3;
-  }
-
-  .third-spotlight {
-    grid-column: 2/3;
-    grid-row: 3/4;
-  }
 
   /* DARK MODE */
   #mode {
@@ -66,64 +48,64 @@
 
   /* Discover CSS */
 
-.discover_grid {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	background-color: rgb(224, 216, 216);
-}
+  .discover_grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: rgb(224, 216, 216);
+  }
 
-.sidebar_grid {
-	margin: 10px 10px;
-	display: grid;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-	grid-gap: 10px;
-}
+  .sidebar_grid {
+    margin: 10px 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
 
-.sidebar_grid div {
-	padding-left: 30px;
-	padding-right: 30px;
-	align-items: center;
-	text-align: center;
-}
+  .sidebar_grid div {
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    text-align: center;
+  }
 
-.demographics {
-	grid-row: 1/2;
-	background-color: white;
-}
+  .demographics {
+    grid-row: 1/2;
+    background-color: white;
+  }
 
-.statistics {
-	grid-row: 2/3;
-	background-color: white;
-}
+  .statistics {
+    grid-row: 2/3;
+    background-color: white;
+  }
 
-.events {
-	grid-row: 3/4;
-	background-color: white;
-}
+  .events {
+    grid-row: 3/4;
+    background-color: white;
+  }
 
-.attractions {
-	grid-row: 4/5;
-	background-color: white;
-}
+  .attractions {
+    grid-row: 4/5;
+    background-color: white;
+  }
 
-.accomodations {
-	grid-row: 5/6;
-	background-color: white;
-}
+  .accomodations {
+    grid-row: 5/6;
+    background-color: white;
+  }
 
 
-.images_grid {
-	background-color: rgb(224, 216, 216);
-	text-align: center;
-}
+  .images_grid {
+    background-color: rgb(224, 216, 216);
+    text-align: center;
+  }
 
-.images_grid div {
-	margin: 10px 10px;
-}
+  .images_grid div {
+    margin: 10px 10px;
+  }
 
-.images_grid img:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+  .images_grid img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
 
 
 }
