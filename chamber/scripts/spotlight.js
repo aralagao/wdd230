@@ -1,5 +1,5 @@
 // Fetch the JSON data
-fetch('members.json')
+fetch('data/members.json') // Adjusted path to reflect the location of the JSON file
   .then(response => response.json())
   .then(data => {
     // Filter members with silver or gold status
@@ -12,10 +12,9 @@ fetch('members.json')
     const selectedMembers = shuffledMembers.slice(0, Math.floor(Math.random() * 2) + 2);
     
     // Update spotlight section HTML
-    const spotlightContainer = document.querySelector('.spotlights');
-    selectedMembers.forEach(member => {
+    const spotlightContainers = document.querySelectorAll('.spots');
+    selectedMembers.forEach((member, index) => {
       const spotlightDiv = document.createElement('div');
-      spotlightDiv.classList.add('spots');
       spotlightDiv.innerHTML = `
         <h3>${member.name}</h3>
         <p>${member.address}</p>
@@ -24,7 +23,8 @@ fetch('members.json')
         <p>${member.email}</p>
         <img src="${member.imageurl}" alt="${member.name}" width="200">
       `;
-      spotlightContainer.appendChild(spotlightDiv);
+      // Append the generated member info to the respective .spots div
+      spotlightContainers[index].appendChild(spotlightDiv);
     });
   })
   .catch(error => console.error('Error fetching members data:', error));
@@ -37,3 +37,4 @@ function shuffleArray(array) {
   }
   return array;
 }
+
