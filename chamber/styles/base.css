@@ -154,6 +154,7 @@ img {
 }
 
 .current-events {
+	box-shadow: 0 0 250px rgba(98, 146, 105, 0.3);
 	background-color: #549665;
 	padding: 20px 20px;
 	text-align: center;
@@ -178,6 +179,8 @@ h2 {
 	text-align: center;
 	margin: 10px 20px;
 	align-content: center;
+	background-image: url('https://img.freepik.com/premium-vector/sky-clouds-design-with-flat-cartoon-poster-flyers-postcards-web-banners_771576-58.jpg');
+	background-size: cover;
 }
 
 .spotlights {
