@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body>
+
+  <div id="high-temp-message" class="closeable-message">
+    Today's high temperature: <span id="high-temp-value"></span>°C
+    <button class="close-btn" onclick="closeMessage()">Close</button>
+  </div>
+  
+  <header>
+    <img src="images/logo.webp" alt="logo" class="logo">
+    <button id="menu"></button>
+    <nav class="navigation">
+      <a href="https://aralagao.github.io/wdd230/chamber/" title="Home" class="nav-link">Home</a>
+      <a href="https://aralagao.github.io/wdd230/chamber/discover.html" title="Discover" class="nav-link">Discover</a>
+      <a href="https://aralagao.github.io/wdd230/chamber/directory.html" title="Directory"
+        class="nav-link">Directory</a>
+      <a href="https://aralagao.github.io/wdd230/chamber/join.html" title="Contact" class="nav-link active">Join Us</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="container">
+      <picture>
+        <source media="(max-width: 500px)" srcset="images/hero-small.webp" class="hero">
+        <source media="(max-width: 750px)" srcset="images/hero-medium.webp" class="hero">
+        <img src="images/hero-large.webp" loading="lazy" alt="Shangri-La" width="1000" height="500" class="hero">
+      </picture>
+      <div class="herolabel">
+        <p class="maroon">Ride the Shores of Conzumel</p>
+        <p class="white">Mexico's Highest Rated</p>
+        <p class="white">Vehicle Rental Company</p>
+        <button>Reserve Now</button>
+      </div>
+    </div>
+
+    <div class="choose-ride">
+      <h1 class="choose">Choose Your Ride</h1>
+
+      <div class="scooter-div">
+        <h3>Scooters</h3>
+        <h2>The Wind</h2>
+        <h2>Ranger</h2>
+        <img src="images/honda-pcx150.webp" alt="honda-pcx150" class="honda-scooter" loading="lazy">
+        <ul class="scooter-list">
+          <li>• Honda Metropolitan (49cc) - 1 person</li>
+          <li>• Honda Dio (110cc) - 2 person</li>
+          <li>• Honda PCX150 (149cc) - 2 person</li>
+        </ul>
+      </div>
+
+      <div class="atv-div">
+        <h3>ATVs</h3>
+        <h2>The Land</h2>
+        <h2>Explorer</h2>
+        <img src="images/honda-pioneer.webp" alt="honda-pioneer" class="honda-atv" loading="lazy">
+        <p class="atv-text">• Honda Pioneer 1000 - 4 person</p>
+      </div>
+
+      <div class="jeep-div">
+        <h3>Jeeps</h3>
+        <h2>The Ultimate</h2>
+        <h2>Adventurer</h2>
+        <img src="images/jeep-wrangler-2.webp" alt="jeep-wrangler-2" class="jeep-wrangler" loading="lazy">
+        <p class="jeep-text">• Jeep Wrangler - 4 door manuel with A/C - 5 person</p>
+        <p>• Jeep Wrangler - 2 door - open air - manuel - 4 person</p>
+      </div>
+
+    </div>
+
+    <div class="weather-information">
+      <h2>Weather Information</h2>
+      <div id="weather-info"></div>
+    </div>
+    
+  </main>
+
+
+  <footer>
+
+  </footer>
+
+
+  <script src="scripts/menu.js"></script>
+  <script src="scripts/weather.js"></script>
+</body>
+
+</html>

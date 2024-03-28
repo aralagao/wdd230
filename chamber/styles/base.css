@@ -4,20 +4,6 @@
 	box-sizing: border-box;
 }
 
-h1 {
-	text-align: left;
-	font-family: times, serif;
-	font-size: 1.5rem;
-	margin-left: 1rem;
-}
-
-h2 {
-	font-size: 1.2rem;
-	color: navy;
-	text-align: left;
-	margin: 1rem;
-}
-
 nav {
 	max-width: 700px;
 	margin: auto;
@@ -154,7 +140,8 @@ img {
 	text-decoration: none;
 }
 
-button, a {
+button,
+a {
 	min-width: 44px;
 	min-height: 44px;
 	margin: 8px;
