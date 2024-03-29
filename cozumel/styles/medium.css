@@ -10,6 +10,16 @@
     margin: 20px auto;
   }
 
+  footer {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    background-color: #ece4e4;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
 
 
 

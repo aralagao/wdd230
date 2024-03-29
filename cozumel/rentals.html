@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.webp" alt="logo" class="logo">
+    <button id="menu"></button>
+    <nav class="navigation">
+      <a href="https://aralagao.github.io/wdd230/cozumel/index.html" title="Home" class="nav-link">Home</a>
+      <a href="https://aralagao.github.io/wdd230/cozumel/rentals/html" title="Rentals" class="nav-link">Rentals</a>
+      <a href="hhttps://aralagao.github.io/wdd230/cozumel/" title="Reservations" class="nav-link">Reservations</a>
+      <a href="https://aralagao.github.io/wdd230/cozumel/" title="Contact" class="nav-link active">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="rentals-h1">Rental Options and Prices</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Rental Type</th>
+          <th>Max. Persons</th>
+          <th>Half Day Reservation (3hrs)</th>
+          <th>Full Day Reservation</th>
+          <th>Half Day Walk-In (3hrs)</th>
+          <th>Full Day Walk-In</th>
+        </tr>
+      </thead>
+      <tbody id="rental-data"></tbody>
+    </table>
+  </main>
+
+
+  <footer>
+    <div class="footer-content">
+      <img src="images/logo.webp" alt="logo" class="footer-logo">
+      <p>Arthur Alagao</p>
+      <p>WDD 230 Project</p>
+    </div>
+    <div class="social-media">
+      <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.webp" alt="Facebook"
+          class="fb-logos" loading="lazy"></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="images/Instagram-logo.webp" alt="Instagram"
+          class="fb-logos" loading="lazy"></a>
+    </div>
+  </footer>
+
+
+  <script src="scripts/menu.js"></script>
+  <script src="scripts/weather.js"></script>
+  <script src="scripts/rentals.js"></script>
+</body>
+
+</html>
