@@ -16,31 +16,89 @@
     <img src="images/logo.webp" alt="logo" class="logo">
     <button id="menu"></button>
     <nav class="navigation">
-      <a href="https://aralagao.github.io/wdd230/conzumel/" title="Home" class="nav-link">Home</a>
-      <a href="https://aralagao.github.io/wdd230/conzumel/" title="Rentals" class="nav-link">Rentals</a>
-      <a href="hhttps://aralagao.github.io/wdd230/conzumel/" title="Reservations"
-        class="nav-link">Reservations</a>
-      <a href="https://aralagao.github.io/wdd230/conzumel/" title="Contact" class="nav-link active">Contact</a>
+      <a href="https://aralagao.github.io/wdd230/cozumel/index.html" title="Home" class="nav-link">Home</a>
+      <a href="https://aralagao.github.io/wdd230/cozumel/rentals.html" title="Rentals" class="nav-link">Rentals</a>
+      <a href="hhttps://aralagao.github.io/wdd230/cozumel/reservations.html" title="Reservations" class="nav-link">Reservations</a>
+      <a href="https://aralagao.github.io/wdd230/cozumel/" title="Contact" class="nav-link active">Contact</a>
     </nav>
   </header>
 
-  <main>
+  <main class="reservations-grid">
+    <div class="reservation-info">
+      <h2>Rental Services and Agreements</h2>
+      <ul>
+        <li>A $50 security deposit is required to confirm reservations.</li>
+        <li>A valid driver's license is required in hand at the time of rental.</li>
+        <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+        <li>Fuel charge is not included.</li>
+        <li>Unlimited mileage.</li>
+        <li>Liability insurance is included.</li>
+        <li>Damage insurance is available for purchase.</li>
+        <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+        <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or Venmo.</li>
+        <li>Rentals may be returned to either physical location.</li>
+      </ul>
+    </div>
 
-    
+    <div class="reservation-form">
+      <h2>Rental Details</h2>
+      <form>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="period">Period:</label>
+        <select id="period" name="period" required>
+          <option value="half-day">Half Day</option>
+          <option value="full-day">Full Day</option>
+        </select>
+
+        <label for="rental-type">Rental Type:</label>
+        <select id="rental-type" name="rental-type" required>
+          <option value="honda-metro">Honda Metro Scooter</option>
+          <option value="honda-dio">Honda Dio Scooter</option>
+          <option value="honda-pcx150">Honda PCX150 Scooter</option>
+          <option value="honda-pioneer">Honda Pioneer ATV</option>
+          <option value="jeep-wrangler-4-ac">Jeep Wrangler - 4 door with a/c</option>
+          <option value="jeep-wrangler-2">Jeep Wrangler - 2 door</option>
+        </select>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="home">Home State or Country:</label>
+        <input type="text" id="home" name="home">
+
+        <label for="cruise">Cruise Line (if applicable):</label>
+        <input type="text" id="cruise" name="cruise">
+
+        <label for="comments">Special Accommodations/Comments:</label>
+        <textarea id="comments" name="comments"></textarea>
+
+        <button type="submit">Submit Reservation</button>
+      </form>
+    </div>
 
   </main>
 
   <footer>
     <div class="footer-content">
-        <img src="images/logo.webp" alt="logo" class="footer-logo">
-        <p>Arthur Alagao</p>
-        <p>WDD 230 Project</p>
+      <img src="images/logo.webp" alt="logo" class="footer-logo">
+      <p>Arthur Alagao</p>
+      <p>WDD 230 Project</p>
     </div>
     <div class="social-media">
-        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.webp" alt="Facebook" class="fb-logos" loading="lazy"></a>
-        <a href="https://www.instagram.com/" target="_blank"><img src="images/Instagram-logo.webp" alt="Instagram" class="fb-logos" loading="lazy"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.webp" alt="Facebook"
+          class="fb-logos" loading="lazy"></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="images/Instagram-logo.webp" alt="Instagram"
+          class="fb-logos" loading="lazy"></a>
     </div>
-</footer>
+  </footer>
 
 
   <script src="scripts/menu.js"></script>
