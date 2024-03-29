@@ -1,0 +1,16 @@
+@media (min-width: 600px) {
+  .weather-information {
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+
+  .locations {
+    max-width: 650px;
+    margin: 20px auto;
+  }
+
+
+
+
+}

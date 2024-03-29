@@ -7,6 +7,8 @@
   <title>Document</title>
 
   <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
 </head>
 
 <body>
@@ -15,16 +17,16 @@
     Today's high temperature: <span id="high-temp-value"></span>°C
     <button class="close-btn" onclick="closeMessage()">Close</button>
   </div>
-  
+
   <header>
     <img src="images/logo.webp" alt="logo" class="logo">
     <button id="menu"></button>
     <nav class="navigation">
-      <a href="https://aralagao.github.io/wdd230/chamber/" title="Home" class="nav-link">Home</a>
-      <a href="https://aralagao.github.io/wdd230/chamber/discover.html" title="Discover" class="nav-link">Discover</a>
-      <a href="https://aralagao.github.io/wdd230/chamber/directory.html" title="Directory"
-        class="nav-link">Directory</a>
-      <a href="https://aralagao.github.io/wdd230/chamber/join.html" title="Contact" class="nav-link active">Join Us</a>
+      <a href="https://aralagao.github.io/wdd230/conzumel/" title="Home" class="nav-link">Home</a>
+      <a href="https://aralagao.github.io/wdd230/conzumel/" title="Rentals" class="nav-link">Rentals</a>
+      <a href="hhttps://aralagao.github.io/wdd230/conzumel/" title="Reservations"
+        class="nav-link">Reservations</a>
+      <a href="https://aralagao.github.io/wdd230/conzumel/" title="Contact" class="nav-link active">Contact</a>
     </nav>
   </header>
 
@@ -41,6 +43,11 @@
         <p class="white">Mexico's Highest Rated</p>
         <p class="white">Vehicle Rental Company</p>
         <button>Reserve Now</button>
+        <div class="yelp-div">
+          <img src="images/yelp.webp" alt="yelp-logo" loading="lazy" class="hide-image">
+          <img src="images/google.webp" alt="google-logo" loading="lazy" class="hide-image">
+          <img src="images/trip-advisor.webp" alt="trip=advisor-logo" loading="lazy" class="hide-image">
+        </div>
       </div>
     </div>
 
@@ -78,17 +85,51 @@
 
     </div>
 
+    <div class="locations">
+      <h2>Choose from 2 Locations</h2>
+      <div class="el-centro">
+        <h3>El Centro de Cozumel</h3>
+        <img src="images/el-centro-de-cozumel.webp" alt="el-centro-de-conzumel" class="el-centro-img">
+        <p>123 Calle Principal</p>
+        <p>El Centro</p>
+        <p>Cozumel, Quintana Roo</p>
+        <p>Mexico</p>
+        <p class="location-number">+52 987 123 4567</p>
+        <p class="bold-line">Mon – Sun: 9:00am – 6:30pm</p>
+        <p>Near the Playa del Carmen-Cozumel Ferry dock</p>
+      </div>
+
+      <div class="puerta-maya">
+        <h3>Puerta Maya</h3>
+        <img src="images/puerta-maya.webp" alt="puerta-maya" class="puerta-maya-img">
+        <p>456 Avenida del Puerto</p>
+        <p>Puerta Maya</p>
+        <p>Cozumel, Quintana Roo</p>
+        <p>Mexico</p>
+        <p class="location-number">+52 987 765 4321</p>
+        <p class="bold-line">Mon – Sun: 9:00am – 6:30pm</p>
+        <p>Caters to the cruise lines and patrons</p>
+      </div>
+    </div>
+
     <div class="weather-information">
       <h2>Weather Information</h2>
       <div id="weather-info"></div>
     </div>
-    
+
   </main>
 
-
   <footer>
-
-  </footer>
+    <div class="footer-content">
+        <img src="images/logo.webp" alt="logo" class="footer-logo">
+        <p>Arthur Alagao</p>
+        <p>WDD 230 Project</p>
+    </div>
+    <div class="social-media">
+        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.webp" alt="Facebook" class="fb-logos" loading="lazy"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="images/Instagram-logo.webp" alt="Instagram" class="fb-logos" loading="lazy"></a>
+    </div>
+</footer>
 
 
   <script src="scripts/menu.js"></script>

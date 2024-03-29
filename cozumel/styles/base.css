@@ -38,7 +38,7 @@ nav {
   position: absolute;
   top: 3rem;
   right: 1rem;
-  z-index: 1000;
+  z-index: 999;
 }
 
 
@@ -155,6 +155,7 @@ header {
   align-content: center;
   text-align: center;
   border-radius: 5px;
+  max-width: 350px;
 }
 
 .herolabel p {
@@ -174,20 +175,24 @@ header {
 }
 
 .herolabel button {
-  background-color: rgb(56, 2, 2);
-  color: white;
+  background-color: rgb(14, 230, 25);
+  color: black;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  /* transition: background-color 0.3s ease; */
   margin-top: 5px;
 }
 
 .herolabel button:hover {
   background-color: #e64c00;
 
+}
+
+.hide-image {
+  display: none;
 }
 
 main {
@@ -241,7 +246,7 @@ main {
 }
 
 .atv-text {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .jeep-div {
@@ -260,11 +265,52 @@ main {
   margin-top: 20px;
 }
 
+.locations {
+  margin: 20px 20px;
+  background-color: rgb(206, 220, 241);
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.locations h2 {
+  padding-top: 20px;
+  margin: 20px auto;
+}
+
+.el-centro,
+.puerta-maya {
+  background-color: white;
+  margin: 10px 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+.locations h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.el-centro-img,
+.puerta-maya-img {
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.location-number {
+  margin-bottom: 10px;
+}
+
+.bold-line {
+  font-weight: bold;
+}
+
+
 .weather-information {
   margin-top: 20px;
+  margin-bottom: 20px;
   padding: 20px;
-  background-color: #f0f0f0;
-  border-radius: 10px;
+  background-color: #bbb9b9;
+  /* border-radius: 10px; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   align-items: center;
   align-content: center;
@@ -292,6 +338,25 @@ main {
   height: 50px;
 }
 
+footer {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  background-color: #ece4e4;
+}
+
+footer img {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.fb-logos {
+  width: 50px;
+  margin-top: 20px;
+}
+
+
+
 .closeable-message {
   position: fixed;
   top: 0;
@@ -300,7 +365,7 @@ main {
   background-color: #ffcc00;
   color: #333;
   padding: 10px;
-  z-index: 1000; /* Ensure it appears above other content */
+  z-index: 1000;
 }
 
 .close-btn {
@@ -310,4 +375,3 @@ main {
   cursor: pointer;
   float: right;
 }
-
