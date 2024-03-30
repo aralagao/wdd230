@@ -512,3 +512,110 @@ caption {
 .reservation-form input:required:valid {
   border-left: green solid 6px;
 }
+
+
+
+
+/* CONTACT FORM */
+
+
+.contact-info {
+  margin-left: 20px;
+  line-height: 1.5;
+}
+
+.contact-info h1 {
+  font-size: 50px;
+}
+
+.contact-info p {
+  font-size: 20px;
+}
+
+.contact-info .info p span.phone-number {
+  color: #445ba9;
+}
+
+
+.contact-form {
+  margin: 2rem auto;
+  border: 1px solid #445ba9;
+  border-radius: 10px;
+  padding: 20px 2%;
+  max-width: 40rem;
+}
+
+.contact-form h2 {
+  color: #445ba9;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+
+.contact-form label,
+.contact-form textarea,
+.contact-form input {
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: .8rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.contact-form textarea {
+  min-height: 100px;
+}
+
+.contact-form button[type="submit"] {
+  border: none;
+  background-color: #445ba9;
+  color: white;
+  border-radius: 5px;
+  padding: 12px 24px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #344185;
+}
+
+.contact-form input:required {
+  border-left: red solid 6px;
+}
+
+.contact-form input:required:valid {
+  border-left: green solid 6px;
+}
+
+.map h2 {
+  text-align: center;
+  margin: 30px auto 10px;
+  font-size: 40px;
+}
+
+.map-container {
+  background-color: rgb(215, 223, 247);
+  padding: 20px 10px;
+}
+
+.map-container h3 {
+  text-align: center;
+}
+
+.playa {
+  margin-top: 20px;
+}

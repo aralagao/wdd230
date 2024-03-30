@@ -18,28 +18,79 @@
     <nav class="navigation">
       <a href="https://aralagao.github.io/wdd230/cozumel/index.html" title="Home" class="nav-link">Home</a>
       <a href="https://aralagao.github.io/wdd230/cozumel/rentals.html" title="Rentals" class="nav-link">Rentals</a>
-      <a href="https://aralagao.github.io/wdd230/cozumel/reservations.html" title="Reservations" class="nav-link">Reservations</a>
-      <a href="https://aralagao.github.io/wdd230/cozumel/contact.html" title="Contact" class="nav-link active">Contact</a>
+      <a href="https://aralagao.github.io/wdd230/cozumel/reservations.html" title="Reservations"
+        class="nav-link">Reservations</a>
+      <a href="https://aralagao.github.io/wdd230/cozumel/contact.html" title="Contact"
+        class="nav-link active">Contact</a>
     </nav>
   </header>
 
   <main>
+    <section class="contact-info">
+      <h1>Contact Us</h1>
+      <div class="info">
+        <p>Call <span class="phone-number">(555) 123-4567</span> for help, or fill out the form below.</p>
+      </div>
+    </section>
 
-    
+    <section class="contact-form reservation-form">
+      <h2>Contact Us</h2>
+      <form action="submit_contact_form.php" method="get" action="thankyou.html">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="comment">Comment:</label>
+          <textarea id="comment" name="comment" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+
+    <section class="map">
+      <h2>Our Locations</h2>
+      <div class="map-container">
+        <div class="centro">
+          <h3>El Centro de Conzumel</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3736.8728017750664!2d-86.95105054371226!3d20.511439956544315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDMwJzQxLjIiTiA4NsKwNTYnNDYuMyJX!5e0!3m2!1sen!2sus!4v1711765844691!5m2!1sen!2sus"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="centro-map"></iframe>
+        </div>
+
+        <div class="playa">
+          <h3>Terminal Puerta Maya</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3737.719596001005!2d-86.9783095437158!3d20.476706957777328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDI4JzM2LjEiTiA4NsKwNTgnMjQuNCJX!5e0!3m2!1sen!2sus!4v1711765985789!5m2!1sen!2sus"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="playa-map"></iframe>
+        </div>
+      </div>
+    </section>
+
 
   </main>
 
+
   <footer>
     <div class="footer-content">
-        <img src="images/logo.webp" alt="logo" class="footer-logo">
-        <p>Arthur Alagao</p>
-        <p>WDD 230 Project</p>
+      <img src="images/logo.webp" alt="logo" class="footer-logo">
+      <p>Arthur Alagao</p>
+      <p>WDD 230 Project</p>
     </div>
     <div class="social-media">
-        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.webp" alt="Facebook" class="fb-logos" loading="lazy"></a>
-        <a href="https://www.instagram.com/" target="_blank"><img src="images/Instagram-logo.webp" alt="Instagram" class="fb-logos" loading="lazy"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.webp" alt="Facebook"
+          class="fb-logos" loading="lazy"></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="images/Instagram-logo.webp" alt="Instagram"
+          class="fb-logos" loading="lazy"></a>
     </div>
-</footer>
+  </footer>
 
 
   <script src="scripts/menu.js"></script>

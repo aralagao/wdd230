@@ -21,4 +21,15 @@
   }
 
 
+  .contact-info h1 {
+    text-align: left;
+  }
+  .contact-form {
+    margin-left: 20px;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: 20px 2%;
+    max-width: 40rem;
+  }
+
 }
